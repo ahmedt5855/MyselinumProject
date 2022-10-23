@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Default suite" parallel="tests">
+<test name="Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="testcases.Login_testcase"/>
+<class name="testcases.login_testcase2"/>
+<class name="testcases.invalid_testcase1"/>
+<class name="testcases.Loging_FB"/>
+<class name="testcases.Login_twitter"/>
+<class name="testcases.Login_linkedin"/>
+<class name="testcases.Login_youtube"/>
+
+</classes>
+</test>
+<test name="test2">
+
+<parameter name="browser" value="firefox"/>
+
+<classes>
+
+<class name="testcases.Login_testcase"/>
+
+
+</classes>
+
+</test>
+<!-- Default suite -->
+
+<!-- Default test -->
+
+
+</suite>
+<!-- <test name="test2">
+
+<parameter name="browser" value="firefox"/>
+
+<classes>
+
+<class name="testcases.login_testcase"/>
+
+
+</classes>
+
+</test> -->
